@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF2AF8D327C7C50A00D01325 /* GameSaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2AF8D227C7C50A00D01325 /* GameSaverApp.swift */; };
-		DF2AF8D527C7C50A00D01325 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2AF8D427C7C50A00D01325 /* ContentView.swift */; };
+		DF11B78127CE177800F37885 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DF11B78027CE177800F37885 /* FirebaseFirestore */; };
+		DF11B78527CE28CB00F37885 /* ErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF11B78427CE28CB00F37885 /* ErrorAlert.swift */; };
+		DF11B78727CE290000F37885 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF11B78627CE290000F37885 /* ErrorHandling.swift */; };
+		DF11B78927CE299000F37885 /* AlertModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF11B78827CE299000F37885 /* AlertModifier.swift */; };
+		DF11B78B27CE4A7500F37885 /* ErrorCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF11B78A27CE4A7500F37885 /* ErrorCases.swift */; };
+		DF2AF8D327C7C50A00D01325 /* PerformanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2AF8D227C7C50A00D01325 /* PerformanceApp.swift */; };
+		DF2AF8D527C7C50A00D01325 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2AF8D427C7C50A00D01325 /* MainView.swift */; };
 		DF2AF8D727C7C50B00D01325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2AF8D627C7C50B00D01325 /* Assets.xcassets */; };
 		DF2AF8DA27C7C50B00D01325 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2AF8D927C7C50B00D01325 /* Preview Assets.xcassets */; };
-		DF2AF8DC27C7C50B00D01325 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2AF8DB27C7C50B00D01325 /* Persistence.swift */; };
-		DF2AF8DF27C7C50B00D01325 /* GameSaver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF2AF8DD27C7C50B00D01325 /* GameSaver.xcdatamodeld */; };
-		DF2AF8E927C7C50B00D01325 /* GameSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2AF8E827C7C50B00D01325 /* GameSaverTests.swift */; };
-		DF2AF8F327C7C50B00D01325 /* GameSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2AF8F227C7C50B00D01325 /* GameSaverUITests.swift */; };
-		DF2AF8F527C7C50B00D01325 /* GameSaverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2AF8F427C7C50B00D01325 /* GameSaverUITestsLaunchTests.swift */; };
+		DF2AF8DC27C7C50B00D01325 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2AF8DB27C7C50B00D01325 /* CoreDataManager.swift */; };
+		DF2AF8DF27C7C50B00D01325 /* Performance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF2AF8DD27C7C50B00D01325 /* Performance.xcdatamodeld */; };
+		DF2AF90A27CB6FB200D01325 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2AF90927CB6FB200D01325 /* Extensions.swift */; };
+		DF4897F827CFD89E0095588F /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4897F727CFD89E0095588F /* Time.swift */; };
+		DF60176427CE0B820089675C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF60176327CE0B820089675C /* GoogleService-Info.plist */; };
+		DF812A9A27CF724300FFAD69 /* PerformanceNavigationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF812A9927CF724300FFAD69 /* PerformanceNavigationRow.swift */; };
+		DF812A9C27CF8CA600FFAD69 /* PerformanceDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF812A9B27CF8CA600FFAD69 /* PerformanceDetailRow.swift */; };
+		DF812A9F27CF950400FFAD69 /* AddItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF812A9E27CF950400FFAD69 /* AddItemViewModel.swift */; };
+		DF812AA127CF952800FFAD69 /* ItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF812AA027CF952800FFAD69 /* ItemDetailViewModel.swift */; };
+		DF8E2E2C27CE13210080699A /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E2E2B27CE13210080699A /* Performance.swift */; };
+		DF8E2E2F27CE14230080699A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E2E2E27CE14230080699A /* MainViewModel.swift */; };
+		DF9242B827CBE8E200A06E02 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9242B727CBE8E200A06E02 /* AddItemView.swift */; };
+		DFB3464F27CE6C78008A4F2D /* PersistanceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB3464E27CE6C78008A4F2D /* PersistanceProtocol.swift */; };
+		DFB3465127CE6DDC008A4F2D /* FireStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB3465027CE6DDC008A4F2D /* FireStoreManager.swift */; };
+		DFB3465327CF6AD9008A4F2D /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB3465227CF6AD9008A4F2D /* ItemDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +51,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DF2AF8CF27C7C50A00D01325 /* GameSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF2AF8D227C7C50A00D01325 /* GameSaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSaverApp.swift; sourceTree = "<group>"; };
-		DF2AF8D427C7C50A00D01325 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF11B78427CE28CB00F37885 /* ErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlert.swift; sourceTree = "<group>"; };
+		DF11B78627CE290000F37885 /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
+		DF11B78827CE299000F37885 /* AlertModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModifier.swift; sourceTree = "<group>"; };
+		DF11B78A27CE4A7500F37885 /* ErrorCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCases.swift; sourceTree = "<group>"; };
+		DF2AF8CF27C7C50A00D01325 /* Performance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Performance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2AF8D227C7C50A00D01325 /* PerformanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceApp.swift; sourceTree = "<group>"; };
+		DF2AF8D427C7C50A00D01325 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DF2AF8D627C7C50B00D01325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF2AF8D927C7C50B00D01325 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DF2AF8DB27C7C50B00D01325 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DF2AF8DB27C7C50B00D01325 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		DF2AF8DE27C7C50B00D01325 /* GameSaver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameSaver.xcdatamodel; sourceTree = "<group>"; };
-		DF2AF8E427C7C50B00D01325 /* GameSaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameSaverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF2AF8E827C7C50B00D01325 /* GameSaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSaverTests.swift; sourceTree = "<group>"; };
-		DF2AF8EE27C7C50B00D01325 /* GameSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF2AF8F227C7C50B00D01325 /* GameSaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSaverUITests.swift; sourceTree = "<group>"; };
-		DF2AF8F427C7C50B00D01325 /* GameSaverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSaverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF2AF8E427C7C50B00D01325 /* PerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2AF8EE27C7C50B00D01325 /* PerformanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerformanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2AF90927CB6FB200D01325 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DF4897F727CFD89E0095588F /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		DF60176327CE0B820089675C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF812A9927CF724300FFAD69 /* PerformanceNavigationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceNavigationRow.swift; sourceTree = "<group>"; };
+		DF812A9B27CF8CA600FFAD69 /* PerformanceDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceDetailRow.swift; sourceTree = "<group>"; };
+		DF812A9E27CF950400FFAD69 /* AddItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewModel.swift; sourceTree = "<group>"; };
+		DF812AA027CF952800FFAD69 /* ItemDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewModel.swift; sourceTree = "<group>"; };
+		DF8E2E2B27CE13210080699A /* Performance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performance.swift; sourceTree = "<group>"; };
+		DF8E2E2E27CE14230080699A /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		DF9242B727CBE8E200A06E02 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		DFB3464E27CE6C78008A4F2D /* PersistanceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceProtocol.swift; sourceTree = "<group>"; };
+		DFB3465027CE6DDC008A4F2D /* FireStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireStoreManager.swift; sourceTree = "<group>"; };
+		DFB3465227CF6AD9008A4F2D /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF11B78127CE177800F37885 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +108,7 @@
 		DF2AF8C627C7C50A00D01325 = {
 			isa = PBXGroup;
 			children = (
-				DF2AF8D127C7C50A00D01325 /* GameSaver */,
-				DF2AF8E727C7C50B00D01325 /* GameSaverTests */,
-				DF2AF8F127C7C50B00D01325 /* GameSaverUITests */,
+				DF2AF8D127C7C50A00D01325 /* Performance */,
 				DF2AF8D027C7C50A00D01325 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,24 +116,29 @@
 		DF2AF8D027C7C50A00D01325 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF2AF8CF27C7C50A00D01325 /* GameSaver.app */,
-				DF2AF8E427C7C50B00D01325 /* GameSaverTests.xctest */,
-				DF2AF8EE27C7C50B00D01325 /* GameSaverUITests.xctest */,
+				DF2AF8CF27C7C50A00D01325 /* Performance.app */,
+				DF2AF8E427C7C50B00D01325 /* PerformanceTests.xctest */,
+				DF2AF8EE27C7C50B00D01325 /* PerformanceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF2AF8D127C7C50A00D01325 /* GameSaver */ = {
+		DF2AF8D127C7C50A00D01325 /* Performance */ = {
 			isa = PBXGroup;
 			children = (
-				DF2AF8D227C7C50A00D01325 /* GameSaverApp.swift */,
-				DF2AF8D427C7C50A00D01325 /* ContentView.swift */,
+				DF2AF8D227C7C50A00D01325 /* PerformanceApp.swift */,
+				DF9242B927CBE94C00A06E02 /* Views */,
+				DF8E2E2D27CE14120080699A /* ViewModels */,
+				DF8E2E2A27CE12EE0080699A /* Models */,
+				DFB3464D27CE6C57008A4F2D /* Persistance */,
+				DF4897F927D265C80095588F /* ErrorHandling */,
+				DF2AF90927CB6FB200D01325 /* Extensions.swift */,
+				DF60176327CE0B820089675C /* GoogleService-Info.plist */,
 				DF2AF8D627C7C50B00D01325 /* Assets.xcassets */,
-				DF2AF8DB27C7C50B00D01325 /* Persistence.swift */,
-				DF2AF8DD27C7C50B00D01325 /* GameSaver.xcdatamodeld */,
+				DF2AF8DD27C7C50B00D01325 /* Performance.xcdatamodeld */,
 				DF2AF8D827C7C50B00D01325 /* Preview Content */,
 			);
-			path = GameSaver;
+			path = Performance;
 			sourceTree = "<group>";
 		};
 		DF2AF8D827C7C50B00D01325 /* Preview Content */ = {
@@ -116,29 +149,72 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DF2AF8E727C7C50B00D01325 /* GameSaverTests */ = {
+		DF4897F927D265C80095588F /* ErrorHandling */ = {
 			isa = PBXGroup;
 			children = (
-				DF2AF8E827C7C50B00D01325 /* GameSaverTests.swift */,
+				DF11B78A27CE4A7500F37885 /* ErrorCases.swift */,
+				DF11B78827CE299000F37885 /* AlertModifier.swift */,
+				DF11B78627CE290000F37885 /* ErrorHandling.swift */,
 			);
-			path = GameSaverTests;
+			path = ErrorHandling;
 			sourceTree = "<group>";
 		};
-		DF2AF8F127C7C50B00D01325 /* GameSaverUITests */ = {
+		DF812A9D27CF8D0100FFAD69 /* Rows */ = {
 			isa = PBXGroup;
 			children = (
-				DF2AF8F227C7C50B00D01325 /* GameSaverUITests.swift */,
-				DF2AF8F427C7C50B00D01325 /* GameSaverUITestsLaunchTests.swift */,
+				DF812A9927CF724300FFAD69 /* PerformanceNavigationRow.swift */,
+				DF812A9B27CF8CA600FFAD69 /* PerformanceDetailRow.swift */,
 			);
-			path = GameSaverUITests;
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		DF8E2E2A27CE12EE0080699A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF8E2E2B27CE13210080699A /* Performance.swift */,
+				DF4897F727CFD89E0095588F /* Time.swift */,
+				DF11B78427CE28CB00F37885 /* ErrorAlert.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF8E2E2D27CE14120080699A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DF8E2E2E27CE14230080699A /* MainViewModel.swift */,
+				DF812AA027CF952800FFAD69 /* ItemDetailViewModel.swift */,
+				DF812A9E27CF950400FFAD69 /* AddItemViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DF9242B927CBE94C00A06E02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF812A9D27CF8D0100FFAD69 /* Rows */,
+				DF2AF8D427C7C50A00D01325 /* MainView.swift */,
+				DFB3465227CF6AD9008A4F2D /* ItemDetailView.swift */,
+				DF9242B727CBE8E200A06E02 /* AddItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFB3464D27CE6C57008A4F2D /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				DFB3464E27CE6C78008A4F2D /* PersistanceProtocol.swift */,
+				DFB3465027CE6DDC008A4F2D /* FireStoreManager.swift */,
+				DF2AF8DB27C7C50B00D01325 /* CoreDataManager.swift */,
+			);
+			path = Persistance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF2AF8CE27C7C50A00D01325 /* GameSaver */ = {
+		DF2AF8CE27C7C50A00D01325 /* Performance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF2AF8F827C7C50B00D01325 /* Build configuration list for PBXNativeTarget "GameSaver" */;
+			buildConfigurationList = DF2AF8F827C7C50B00D01325 /* Build configuration list for PBXNativeTarget "Performance" */;
 			buildPhases = (
 				DF2AF8CB27C7C50A00D01325 /* Sources */,
 				DF2AF8CC27C7C50A00D01325 /* Frameworks */,
@@ -148,14 +224,17 @@
 			);
 			dependencies = (
 			);
-			name = GameSaver;
+			name = Performance;
+			packageProductDependencies = (
+				DF11B78027CE177800F37885 /* FirebaseFirestore */,
+			);
 			productName = GameSaver;
-			productReference = DF2AF8CF27C7C50A00D01325 /* GameSaver.app */;
+			productReference = DF2AF8CF27C7C50A00D01325 /* Performance.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DF2AF8E327C7C50B00D01325 /* GameSaverTests */ = {
+		DF2AF8E327C7C50B00D01325 /* PerformanceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF2AF8FB27C7C50B00D01325 /* Build configuration list for PBXNativeTarget "GameSaverTests" */;
+			buildConfigurationList = DF2AF8FB27C7C50B00D01325 /* Build configuration list for PBXNativeTarget "PerformanceTests" */;
 			buildPhases = (
 				DF2AF8E027C7C50B00D01325 /* Sources */,
 				DF2AF8E127C7C50B00D01325 /* Frameworks */,
@@ -166,14 +245,14 @@
 			dependencies = (
 				DF2AF8E627C7C50B00D01325 /* PBXTargetDependency */,
 			);
-			name = GameSaverTests;
+			name = PerformanceTests;
 			productName = GameSaverTests;
-			productReference = DF2AF8E427C7C50B00D01325 /* GameSaverTests.xctest */;
+			productReference = DF2AF8E427C7C50B00D01325 /* PerformanceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DF2AF8ED27C7C50B00D01325 /* GameSaverUITests */ = {
+		DF2AF8ED27C7C50B00D01325 /* PerformanceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF2AF8FE27C7C50B00D01325 /* Build configuration list for PBXNativeTarget "GameSaverUITests" */;
+			buildConfigurationList = DF2AF8FE27C7C50B00D01325 /* Build configuration list for PBXNativeTarget "PerformanceUITests" */;
 			buildPhases = (
 				DF2AF8EA27C7C50B00D01325 /* Sources */,
 				DF2AF8EB27C7C50B00D01325 /* Frameworks */,
@@ -184,9 +263,9 @@
 			dependencies = (
 				DF2AF8F027C7C50B00D01325 /* PBXTargetDependency */,
 			);
-			name = GameSaverUITests;
+			name = PerformanceUITests;
 			productName = GameSaverUITests;
-			productReference = DF2AF8EE27C7C50B00D01325 /* GameSaverUITests.xctest */;
+			productReference = DF2AF8EE27C7C50B00D01325 /* PerformanceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +291,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DF2AF8CA27C7C50A00D01325 /* Build configuration list for PBXProject "GameSaver" */;
+			buildConfigurationList = DF2AF8CA27C7C50A00D01325 /* Build configuration list for PBXProject "Performance" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,13 +300,16 @@
 				Base,
 			);
 			mainGroup = DF2AF8C627C7C50A00D01325;
+			packageReferences = (
+				DF11B77F27CE177800F37885 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = DF2AF8D027C7C50A00D01325 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF2AF8CE27C7C50A00D01325 /* GameSaver */,
-				DF2AF8E327C7C50B00D01325 /* GameSaverTests */,
-				DF2AF8ED27C7C50B00D01325 /* GameSaverUITests */,
+				DF2AF8CE27C7C50A00D01325 /* Performance */,
+				DF2AF8E327C7C50B00D01325 /* PerformanceTests */,
+				DF2AF8ED27C7C50B00D01325 /* PerformanceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,6 +321,7 @@
 			files = (
 				DF2AF8DA27C7C50B00D01325 /* Preview Assets.xcassets in Resources */,
 				DF2AF8D727C7C50B00D01325 /* Assets.xcassets in Resources */,
+				DF60176427CE0B820089675C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +346,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF2AF8DC27C7C50B00D01325 /* Persistence.swift in Sources */,
-				DF2AF8DF27C7C50B00D01325 /* GameSaver.xcdatamodeld in Sources */,
-				DF2AF8D527C7C50A00D01325 /* ContentView.swift in Sources */,
-				DF2AF8D327C7C50A00D01325 /* GameSaverApp.swift in Sources */,
+				DF11B78B27CE4A7500F37885 /* ErrorCases.swift in Sources */,
+				DF2AF90A27CB6FB200D01325 /* Extensions.swift in Sources */,
+				DFB3465127CE6DDC008A4F2D /* FireStoreManager.swift in Sources */,
+				DF2AF8DC27C7C50B00D01325 /* CoreDataManager.swift in Sources */,
+				DF11B78527CE28CB00F37885 /* ErrorAlert.swift in Sources */,
+				DF11B78927CE299000F37885 /* AlertModifier.swift in Sources */,
+				DF812A9A27CF724300FFAD69 /* PerformanceNavigationRow.swift in Sources */,
+				DF8E2E2C27CE13210080699A /* Performance.swift in Sources */,
+				DFB3465327CF6AD9008A4F2D /* ItemDetailView.swift in Sources */,
+				DF9242B827CBE8E200A06E02 /* AddItemView.swift in Sources */,
+				DF812A9F27CF950400FFAD69 /* AddItemViewModel.swift in Sources */,
+				DF2AF8DF27C7C50B00D01325 /* Performance.xcdatamodeld in Sources */,
+				DFB3464F27CE6C78008A4F2D /* PersistanceProtocol.swift in Sources */,
+				DF4897F827CFD89E0095588F /* Time.swift in Sources */,
+				DF812AA127CF952800FFAD69 /* ItemDetailViewModel.swift in Sources */,
+				DF812A9C27CF8CA600FFAD69 /* PerformanceDetailRow.swift in Sources */,
+				DF11B78727CE290000F37885 /* ErrorHandling.swift in Sources */,
+				DF2AF8D527C7C50A00D01325 /* MainView.swift in Sources */,
+				DF2AF8D327C7C50A00D01325 /* PerformanceApp.swift in Sources */,
+				DF8E2E2F27CE14230080699A /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +373,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF2AF8E927C7C50B00D01325 /* GameSaverTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +380,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF2AF8F527C7C50B00D01325 /* GameSaverUITestsLaunchTests.swift in Sources */,
-				DF2AF8F327C7C50B00D01325 /* GameSaverUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +388,12 @@
 /* Begin PBXTargetDependency section */
 		DF2AF8E627C7C50B00D01325 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF2AF8CE27C7C50A00D01325 /* GameSaver */;
+			target = DF2AF8CE27C7C50A00D01325 /* Performance */;
 			targetProxy = DF2AF8E527C7C50B00D01325 /* PBXContainerItemProxy */;
 		};
 		DF2AF8F027C7C50B00D01325 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF2AF8CE27C7C50A00D01325 /* GameSaver */;
+			target = DF2AF8CE27C7C50A00D01325 /* Performance */;
 			targetProxy = DF2AF8EF27C7C50B00D01325 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -426,7 +522,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GameSaver/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Performance/Preview Content\"";
 				DEVELOPMENT_TEAM = E9B7949KKJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -440,7 +536,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HM.GameSaver;
+				PRODUCT_BUNDLE_IDENTIFIER = HM.Performance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -455,7 +551,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GameSaver/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Performance/Preview Content\"";
 				DEVELOPMENT_TEAM = E9B7949KKJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -469,7 +565,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HM.GameSaver;
+				PRODUCT_BUNDLE_IDENTIFIER = HM.Performance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,12 +584,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HM.GameSaverTests;
+				PRODUCT_BUNDLE_IDENTIFIER = HM.PerformanceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameSaver.app/GameSaver";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Performance.app/Performance";
 			};
 			name = Debug;
 		};
@@ -508,12 +604,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HM.GameSaverTests;
+				PRODUCT_BUNDLE_IDENTIFIER = HM.PerformanceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameSaver.app/GameSaver";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Performance.app/Performance";
 			};
 			name = Release;
 		};
@@ -526,12 +622,12 @@
 				DEVELOPMENT_TEAM = E9B7949KKJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HM.GameSaverUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = HM.PerformanceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GameSaver;
+				TEST_TARGET_NAME = Performance;
 			};
 			name = Debug;
 		};
@@ -544,19 +640,19 @@
 				DEVELOPMENT_TEAM = E9B7949KKJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HM.GameSaverUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = HM.PerformanceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GameSaver;
+				TEST_TARGET_NAME = Performance;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF2AF8CA27C7C50A00D01325 /* Build configuration list for PBXProject "GameSaver" */ = {
+		DF2AF8CA27C7C50A00D01325 /* Build configuration list for PBXProject "Performance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF2AF8F627C7C50B00D01325 /* Debug */,
@@ -565,7 +661,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF2AF8F827C7C50B00D01325 /* Build configuration list for PBXNativeTarget "GameSaver" */ = {
+		DF2AF8F827C7C50B00D01325 /* Build configuration list for PBXNativeTarget "Performance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF2AF8F927C7C50B00D01325 /* Debug */,
@@ -574,7 +670,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF2AF8FB27C7C50B00D01325 /* Build configuration list for PBXNativeTarget "GameSaverTests" */ = {
+		DF2AF8FB27C7C50B00D01325 /* Build configuration list for PBXNativeTarget "PerformanceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF2AF8FC27C7C50B00D01325 /* Debug */,
@@ -583,7 +679,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF2AF8FE27C7C50B00D01325 /* Build configuration list for PBXNativeTarget "GameSaverUITests" */ = {
+		DF2AF8FE27C7C50B00D01325 /* Build configuration list for PBXNativeTarget "PerformanceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF2AF8FF27C7C50B00D01325 /* Debug */,
@@ -594,14 +690,33 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		DF11B77F27CE177800F37885 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF11B78027CE177800F37885 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF11B77F27CE177800F37885 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
-		DF2AF8DD27C7C50B00D01325 /* GameSaver.xcdatamodeld */ = {
+		DF2AF8DD27C7C50B00D01325 /* Performance.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				DF2AF8DE27C7C50B00D01325 /* GameSaver.xcdatamodel */,
 			);
 			currentVersion = DF2AF8DE27C7C50B00D01325 /* GameSaver.xcdatamodel */;
-			path = GameSaver.xcdatamodeld;
+			path = Performance.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
